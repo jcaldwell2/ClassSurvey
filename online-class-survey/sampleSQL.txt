@@ -1,0 +1,5 @@
+$sql="SELECT question FROM questions WHERE catagory = 'Study'";
+$result=mysqli_query($con,$sql);
+$row=mysqli_fetch_array($result);
+
+$sql="SELECT password FROM users WHERE user_id = '$user_id'";

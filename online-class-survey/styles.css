@@ -1,0 +1,132 @@
+
+h1 {
+    text-align: center;
+    color: #c2011b;
+    margin-top: 20px;
+
+}
+h2{
+    text-align: center;
+    color: #808285;
+    font-size: 26px;
+
+
+}
+body{
+    background-color: #808285;
+    font-size: 16px;
+    color: black;
+
+}
+
+
+p{
+
+    color: black;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+
+
+.td2{
+
+height: 100px ;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+
+}
+
+.wrapper{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width:100%;
+
+}
+input[type=number]{
+    width:158px;
+}
+#page {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    background: white;
+}
+
+
+.card-login {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 800px;
+    height:700px;
+    background: white;
+}
+
+
+.card-admin {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 700px;
+    height:650px;
+    background: white;
+}
+
+.card-results {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 800px;
+    height:650px;
+    background: white;
+
+}
+
+
+.card-survey {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 850px;
+    height:850px;
+    background: white;
+
+
+}
+
+.card-login > .mdl-card__title {
+    color: #fff;
+    height: 200px;
+    background: white;
+    background-repeat:no-repeat;
+    text-align: center;
+
+}
+
+input[type=text] {
+
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 #808285;
+}
+input[type=password] {
+
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 #808285;
+}
+
+.mdl-grid.center-items {
+    justify-content: center;
+}
